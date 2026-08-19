@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Open index.html in Firefox",
+            "file": "${workspaceFolder}/index.html",
+            "firefoxExecutable": "/usr/bin/firefox"
+        }
+    ]
+}
