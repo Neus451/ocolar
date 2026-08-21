@@ -10,6 +10,10 @@ body {
     /* Define el tamaño exacto de cada cuadrado (20px) */
     background-size: 20px 20px; 
 }
+.const> img{
+    height: 150px;
+    
+}
 h1{
     
     text-align: center;
@@ -28,6 +32,7 @@ ol{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    list-style: none;
 }
 .cuerpo{
     width: auto;
