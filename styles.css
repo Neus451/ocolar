@@ -10,12 +10,12 @@ body {
     /* Define el tamaño exacto de cada cuadrado (20px) */
     background-size: 20px 20px; 
 }
-.const> img{
-    height: 150px;
-    
+.const{
+    display: flex;
+    height: 250px;
+    justify-content: center;
 }
 h1{
-    
     text-align: center;
     font-size: 3em;
 }
@@ -23,16 +23,27 @@ h1{
     background-color: rgba(219, 192, 245, 0.568);
     border-radius: 5px;
 }
-.indice-principal{
+.menu a{
+  text-decoration: none;  
+  color:black;
+}
+.menu li{
+ 
+    padding: 10px 20px;
+    background-color: rgb(231, 27, 231);
+    box-shadow:  10px 10px 20px purple;
    
-    text-decoration: none;
-    display: flex;
+  
+}
+.menu li:hover{
+    display: inline-block;
+    transform: rotate(15deg);
+    transition: transform 0.5s ease;
 }
 ol{
     display: flex;
     justify-content: space-around;
-    list-style-type: none;
-    list-style: none;
+     list-style: none;
 }
 .cuerpo{
     width: auto;
